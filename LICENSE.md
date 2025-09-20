@@ -12,7 +12,7 @@ class ChildEmployee(Employee1):
        self.id=id
 
 
-emp1 = Employee1('srinadh', 18, 1000000000000)
+emp1 = Employee1('srinadh', 18, 100000)
 print(emp1.age)
 print(emp1.name)
 print(emp1.salary)
