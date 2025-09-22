@@ -1,0 +1,26 @@
+class Emp:
+    def __init__(self,name,age,salary):
+        self.name=name
+        self.age=age
+        self.salary=salary
+
+class childEmp1(Emp):
+    def __init__(self,name,age,salary):
+        self.name=name
+        self.age=age
+        self.salary=salary
+
+        
+class childEmp2(childEmp1):
+    def __init__(self,name,age,salary):
+        self.name=name
+        self.age=age
+        self.salary=salary
+        
+
+emp1=Emp('srinadh',18,1000000000)
+emp2=childEmp1('shameer',100,100000)
+
+print(emp1.age)
+print(emp2.salary)
+
